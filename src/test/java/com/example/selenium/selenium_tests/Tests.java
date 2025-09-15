@@ -29,7 +29,7 @@ public class Tests {
 	
 	@Test
 	public void firstTest() throws InterruptedException {
-		
+		System.out.println("Running first Test Case");
 		driver.get("https://qatesthub.online/");
 		
 		AssertJUnit.assertEquals("QA Test Hub", driver.getTitle());
